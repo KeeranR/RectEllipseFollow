@@ -1,0 +1,13 @@
+void setup()
+  {
+   size(900,900);}
+void draw(){
+  ellipseMode(CENTER);
+  rectMode(CENTER);
+  background(255);
+  fill(0,0,0);
+  ellipse(mouseX-150,mouseY-50,50,50);
+  rect(mouseX-100,mouseY-50,50,50);
+  line(mouseX-20,mouseY-70,mouseX-80,mouseY-30);
+    
+}  
